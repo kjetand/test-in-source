@@ -1,0 +1,15 @@
+{
+  "name": "test-in-source",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "fmt"
+  ],
+  "features": {
+    "tests": {
+      "description": "Build unit tests",
+      "dependencies": [
+        "catch2"
+      ]
+    }
+  }
+}
