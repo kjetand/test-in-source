@@ -12,9 +12,7 @@ endif ()
 
 project(test-in-source LANGUAGES CXX)
 
-if (NOT MSVC)
-    message(FATAL_ERROR "This project only supports MSVC at the moment")
-endif ()
+set(CMAKE_CXX_STANDARD 20)
 
 if (APP_BUILD_TESTS)
     message(STATUS "Building project as unit test suite")
